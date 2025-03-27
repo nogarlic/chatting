@@ -1,0 +1,219 @@
+{
+    "results": [
+        {
+            "room": {
+                "name": "Product A",
+                "id": 12457,
+                "image_url": "https://picsum.photos/id/237/200/300",
+                "participant": [
+                    {
+                        "id": "admin@mail.com",
+                        "name": "Admin",
+                        "role": 0
+                    },
+                    {
+                        "id": "agent@mail.com",
+                        "name": "Agent A",
+                        "role": 1
+                    },
+                    {
+                        "id": "customer@mail.com",
+                        "name": "king customer",
+                        "role": 2
+                    }
+                ],
+                "type": "group"
+            },
+            "comments": [
+                {
+                    "id": 885512,
+                    "type": "text",
+                    "message": "Selamat malam",
+                    "sender": "customer@mail.com",
+                    "time": "08:00 PM"
+                },
+                {
+                    "id": 885513,
+                    "type": "text",
+                    "message": "Malam",
+                    "sender": "agent@mail.com",
+                    "time": "08:01 PM"
+                },
+                {
+                    "id": 885514,
+                    "type": "text",
+                    "message": "Ada yang bisa saya bantu?",
+                    "sender": "agent@mail.com",
+                    "time": "08:02 PM"
+                },
+                {
+                    "id": 885515,
+                    "type": "text",
+                    "message": "Saya ingin mengirimkan bukti pembayaran, karena diaplikasi selalu gagal",
+                    "sender": "customer@mail.com",
+                    "time": "10:01 PM"
+                },
+                {
+                    "id": 885516,
+                    "type": "text",
+                    "message": "Baik, silahkan kirimkan lampiran bukti pembayarannya",
+                    "sender": "agent@mail.com",
+                    "time": "10:02 PM"
+                },
+                {
+                    "id": 885534,
+                    "type": "image",
+                    "message": "Ini bukti pembayaran saya",
+                    "fileUrl": "/public/images/bukti-bayar.png",
+                    "fileName": "bukti-bayar.png",
+                    "sender": "customer@mail.com",
+                    "time": "10:04 PM"
+                },
+                {
+                    "id": 885535,
+                    "type": "text",
+                    "message": "Bukti telah diterima",
+                    "sender": "admin@mail.com",
+                    "time": "10:04 PM"
+                }
+            ]
+        },
+        {
+            "room": {
+                "name": "Product B",
+                "id": 12456,
+                "image_url": "/public/images/no-photo-profile.jpg",
+                "participant": [
+                    {
+                        "id": "admin@mail.com",
+                        "name": "Admin",
+                        "role": 0
+                    },
+                    {
+                        "id": "agent@mail.com",
+                        "name": "Agent A",
+                        "role": 1
+                    },
+                    {
+                        "id": "customer@mail.com",
+                        "name": "king customer",
+                        "role": 2
+                    }
+                ],
+                "type": "group"
+            },
+            "comments": [
+                {
+                    "id": 885520,
+                    "type": "text",
+                    "message": "Selamat malam Product B",
+                    "sender": "customer@mail.com",
+                    "time": "09:00 PM"
+                },
+                {
+                    "id": 885521,
+                    "type": "text",
+                    "message": "Malam",
+                    "sender": "agent@mail.com",
+                    "time": "09:01 PM"
+                },
+                {
+                    "id": 885522,
+                    "type": "text",
+                    "message": "Ada yang bisa saya bantu?",
+                    "sender": "agent@mail.com",
+                    "time": "09:02 PM"
+                },
+                {
+                    "id": 885523,
+                    "type": "text",
+                    "message": "Saya ingin meminta panduan membuat bukti pembayaran 🙏🏽",
+                    "sender": "customer@mail.com",
+                    "time": "09:02 PM"
+                },
+                {
+                    "id": 885524,
+                    "type": "text",
+                    "message": "Admin?",
+                    "sender": "agent@mail.com",
+                    "time": "09:02 PM"
+                },
+                {
+                    "id": 885525,
+                    "type": "application/pdf",
+                    "message": "Silakan cek panduan berikut 🤗",
+                    "fileUrl": "/public/pdf/panduan.pdf",
+                    "fileName": "Guide Application",
+                    "sender": "admin@mail.com",
+                    "time": "09:10 PM"
+                }
+            ]
+        },
+        {
+            "room": {
+                "name": "Agent C",
+                "id": 12458,
+                "image_url": "/public/images/me-round.png",
+                "participant": [
+                    {
+                        "id": "agent@mail.com",
+                        "name": "Agent C",
+                        "role": 1
+                    },
+                    {
+                        "id": "customer@mail.com",
+                        "name": "queen customer",
+                        "role": 2
+                    }
+                ],
+                "type": "single"
+            },
+            "comments": [
+                {
+                    "id": 885530,
+                    "type": "text",
+                    "message": "Selamat malam, saya ingin bertanya mengenai paket layanan yang tersedia.",
+                    "sender": "customer@mail.com",
+                    "time": "10:00 PM"
+                },
+                {
+                    "id": 885531,
+                    "type": "text",
+                    "message": "Selamat malam! Tentu, layanan apa yang Anda butuhkan? Kami memiliki beberapa paket yang dapat disesuaikan dengan kebutuhan bisnis Anda.",
+                    "sender": "agent@mail.com",
+                    "time": "10:01 PM"
+                },
+                {
+                    "id": 885532,
+                    "type": "text",
+                    "message": "Saya tertarik dengan paket premium. Bisa dijelaskan fitur-fiturnya?",
+                    "sender": "customer@mail.com",
+                    "time": "10:02 PM"
+                },
+                {
+                    "id": 885533,
+                    "type": "text",
+                    "message": "Tentu! Paket premium mencakup dukungan prioritas 24/7, integrasi API, laporan analitik, dan kapasitas penyimpanan lebih besar.",
+                    "sender": "agent@mail.com",
+                    "time": "10:03 PM"
+                },
+                {
+                    "id": 885534,
+                    "type": "video/mp4",
+                    "message": "Berikut penjelasan lebih detailnya.",
+                    "fileUrl": "/public/video/qiscus.mp4",
+                    "fileName": "produk",
+                    "sender": "agent@mail.com",
+                    "time": "10:04 PM"
+                },
+                {
+                    "id": 885535,
+                    "type": "text",
+                    "message": "Terima kasih! Bagaimana dengan proses registrasi?",
+                    "sender": "customer@mail.com",
+                    "time": "10:05 PM"
+                }
+            ]
+        }
+    ]
+}
