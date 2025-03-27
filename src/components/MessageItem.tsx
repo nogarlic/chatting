@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFileAlt, faFilePdf } from '@fortawesome/free-solid-svg-icons'
+import { useState } from "react";
 
 interface MessageProps {
     message: {
@@ -37,16 +38,23 @@ const MessageItem: React.FC<MessageProps> = ({
 }) => {
     const isSender = message.sender === currentUser
     const messageColor = getColorForSender(message.sender)
+    const [isLoading, setIsLoading] = useState(true);
 
     const renderMessageContent = () => {
         if (message.type.startsWith('image')) {
             return (
                 <div>
+                    {isLoading && (
+                        <div className="animate-pulse bg-gray-300 dark:bg-gray-700 rounded-lg shadow-md mt-3 md:max-w-xs h-40 w-full" />
+                    )}
                     <img
-                        src={message.fileUrl}
-                        alt="Sent image"
-                        className="rounded-lg shadow-md mt-3 md:max-w-xs"
-                    />
+                            src={message.fileUrl}
+                            alt="Sent image"
+                            className={`rounded-lg shadow-md mt-3 md:max-w-xs transition-opacity duration-300 ${
+                                isLoading ? "opacity-0" : "opacity-100"
+                            }`}
+                            onLoad={() => setIsLoading(false)}
+                        />
                     {message.message ? (
                         <p className="text-sm break-words whitespace-pre-wrap mt-2">
                             {message.message}
