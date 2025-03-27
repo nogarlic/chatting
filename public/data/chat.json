@@ -64,7 +64,7 @@
                     "id": 885534,
                     "type": "image",
                     "message": "Ini bukti pembayaran saya",
-                    "fileUrl": "/public/images/bukti-bayar.png",
+                    "fileUrl": "/images/bukti-bayar.png",
                     "fileName": "bukti-bayar.png",
                     "sender": "customer@mail.com",
                     "time": "10:04 PM"
@@ -82,7 +82,7 @@
             "room": {
                 "name": "Product B",
                 "id": 12456,
-                "image_url": "/public/images/no-photo-profile.jpg",
+                "image_url": "/images/no-photo-profile.jpg",
                 "participant": [
                     {
                         "id": "admin@mail.com",
@@ -142,7 +142,7 @@
                     "id": 885525,
                     "type": "application/pdf",
                     "message": "Silakan cek panduan berikut 🤗",
-                    "fileUrl": "/public/pdf/panduan.pdf",
+                    "fileUrl": "/pdf/panduan.pdf",
                     "fileName": "Guide Application",
                     "sender": "admin@mail.com",
                     "time": "09:10 PM"
@@ -153,7 +153,7 @@
             "room": {
                 "name": "Agent C",
                 "id": 12458,
-                "image_url": "/public/images/me-round.png",
+                "image_url": "/images/me-round.png",
                 "participant": [
                     {
                         "id": "agent@mail.com",
@@ -201,7 +201,7 @@
                     "id": 885534,
                     "type": "video/mp4",
                     "message": "Berikut penjelasan lebih detailnya.",
-                    "fileUrl": "/public/video/qiscus.mp4",
+                    "fileUrl": "/video/qiscus.mp4",
                     "fileName": "produk",
                     "sender": "agent@mail.com",
                     "time": "10:04 PM"
